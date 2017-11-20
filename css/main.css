@@ -48,20 +48,25 @@ p {
 }
 
 a {
-    display: block;
     color: #ffffff;
     text-decoration: none;
 }
 
 ul {
     position: relative;
-    padding: 0;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    padding: 2em 2rem 0em;
     margin: auto;
     list-style: none;
     text-align: center;
     text-transform: uppercase;
+}
+
+ul li {
+    display: inline;
+    position: relative;
+    margin-right: 15px;
+    padding: 0;
+    background: 0;
 }
 
 .btn {
@@ -87,7 +92,7 @@ ul {
     color: #FFFFFF;
     line-height: 1.5;
     border-radius: 2rem;
-    transition: all ease-in-out .5s;
+    transition: opacity ease-in-out .5s;
 }
 
 .btn:hover,
@@ -164,8 +169,8 @@ header {
 .logo::after {
     content: "Arinka";
     position: absolute;
-    right: 0;
-    bottom: 5px;
+    right: 5px;
+    bottom: 6px;
     text-transform: uppercase;
 }
 
@@ -316,6 +321,7 @@ label {
 }
 
 .on-blog {
+    display: block;
     height: 300px
 }
 
@@ -395,11 +401,6 @@ footer a {
         bottom: 0;
         left: 0;
         right: 0;
-    }
-    nav .row {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
     }
     #popular-locations .row>.col {
         -webkit-box-flex: 0;
