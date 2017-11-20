@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arinka – Frontstack Responsive Design Hackaton</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <svg width="105" height="40" viewBox="0 0 105 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="#a" fill="#FFF"/>
+                <use xlink:href="#b" transform="translate(49 12)" fill="#FFF"/>
+                    <defs>
+                        <path id="a" d="M34.385 21.9l-12.57-8.49.59-8.072c.21-2.9-2.06-5.338-4.96-5.338s-5.13 2.438-4.918 5.338l.588 8.07-12.61 8.534c-.295.21-.505.547-.505.925v2.312c0 .756.715 1.302 1.47 1.134l4.96-1.303V26.4c0 .378.296.673.674.673h1.723c.38 0 .673-.294.673-.672V24.17l4.372-1.135.756 10.34-4.54 2.103c-.294.126-.462.42-.462.714v3.027c0 .503.505.882 1.01.756l6.81-2.018 6.85 1.934c.505.126 1.01-.253 1.01-.757v-3.027c0-.294-.17-.588-.463-.714l-4.498-2.06.757-10.34 4.33 1.176v2.186c0 .378.294.673.672.673h1.723c.38 0 .673-.296.673-.674V24.97l4.918 1.344c.715.21 1.47-.378 1.47-1.135v-2.313c0-.378-.21-.714-.503-.967z"/>
+                        <path id="b" d="M3.71 5.48L.14 15h2.534l.658-1.876h3.29l.686 2.016 2.506-.252L6.258 5.48H3.71zm2.184 5.642H4.032l.91-2.59.952 2.59zM11.074 15h2.547v-2.996h1.695L16.855 15h2.954l-2.1-3.752c.4-.27.713-.616.937-1.036.234-.43.35-.924.35-1.484 0-1.083-.37-1.895-1.106-2.436-.736-.54-1.674-.812-2.813-.812h-4.004V15zm3.92-7.518c.438 0 .774.107 1.007.322.244.205.365.513.365.924 0 .373-.126.68-.378.924-.252.233-.574.35-.966.35h-1.4v-2.52h1.373zM23.613 15V5.48h-2.547V15h2.548zm4.786 0V9.988L32.054 15h2.38V5.48h-2.548v5.166L28.218 5.48h-2.366V15H28.4zm14.007 0l-2.436-3.556-.742.7V15h-2.547V5.48h2.548v3.304L43.05 5.27l1.975 1.428-3.234 3.024L45.64 15h-3.233zm7.09-9.52L45.927 15h2.534l.66-1.876h3.29l.685 2.016 2.506-.252-3.555-9.408h-2.548zm2.184 5.642h-1.86l.91-2.59.95 2.59z"/>
+                    </defs>
+            </svg>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="!#locations">Locations</a></li>
+                <li><a href="!#moods">Moods</a></li>
+                <li><a href="!#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="btn btn-sign">
+            <span>
+                <a href="!#login">Login</a>
+            </span>
+            <span>
+                <a href="!#signup">Signup</a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="intro-text">
+                Discover the best places to travel to in Nigeria
+            </h1>
+            <div class="search-container">
+                <form action="#" method="POST">
+                    <label for="search">What type of adventure are you looking for?</label>
+                    <input type="search" name="search" id="search" placeholder="e.g educational, outdoors, relaxed">
+                </form>
+            </div>
+        </section>
+        <section class="about">
+            <h5>About Arinka</h5>
+            <p>
+                Arinka is a fictional company, but actually a real idea someone had sometime in the past. In 1985 Aldus Corporation launched its first desktop publishing program Aldus PageMaker for Apple Macintosh computers, released in 1987 for PCs running Windows 1.0.
+                Both contained the variant lorem ipsum most common today.
+            </p>
+        </section>
+        <section class="popular-locations">
+            <div class="grid">
+                <div class="col">
+                    <div class="img-wrap">
+                        <picture>
+                            <source media="(min-width:800px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188234/bauchi-lg_ozig7e.jpg">
+                            <source media="(min-width:400px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188567/bauchi-md_moeakk.jpg">
+                            <img src="http://res.cloudinary.com/oghenerd/image/upload/v1511188564/bauchi-sm_kabsug.jpg" alt="Bauchi Park">
+                        </picture>
+                    </div>
+                    <div class="text-wrap">
+                        <h5>Bauchi Park</h5>
+                        <p>Relaxed holiday for two</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-wrap">
+                        <picture>
+                            <source media="(min-width:800px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188235/jos-lg_d4oeng.jpg">
+                            <source media="(min-width:400px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188569/jos-md_rileb3.jpg">
+                            <img src="http://res.cloudinary.com/oghenerd/image/upload/v1511188566/jos-sm_koiog0.jpg" alt="Jos, Plateau">
+                        </picture>
+                    </div>
+                    <div class="text-wrap">
+                        <h5>Jos, Plateau</h5>
+                        <p>Experience Nigeria in the 60s</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-wrap">
+                        <picture>
+                            <source media="(min-width:800px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188233/car-racing-lg_rjfls3.jpg">
+                            <source media="(min-width:400px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188567/car-racing-md_xnlh5z.jpg">
+                            <img src="http://res.cloudinary.com/oghenerd/image/upload/v1511188564/car-racing-sm_y57old.jpg" alt="Abuja Car Racing">
+                        </picture>
+                    </div>
+                    <div class="text-wrap">
+                        <h5>Abuja Car Racing</h5>
+                        <p>Get Your Adrenaline Pumping</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">See More</div>
+        </section>
+        <section class="on-blog">
+            <div class="img-wrap">
+                <picture>
+                    <source media="(min-width:800px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188231/mosque-lg_p4hvpq.jpg">
+                    <source media="(min-width:400px)" srcset="http://res.cloudinary.com/oghenerd/image/upload/v1511188567/mosque-md_jclos7.jpg">
+                    <img src="http://res.cloudinary.com/oghenerd/image/upload/v1511188568/mosque-sm_quwpos.jpg" alt="Hanging out in Borno ">
+                </picture>
+            </div>
+            <h6>On The Blog</h6>
+            <h3>Hanging out in Borno</h3>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <a href="!#terms ">Terms and Conditions</a>
+        </div>
+        <div>
+            Copyright Frontstack, 2017
+        </div>
+    </footer>
+</body>
+
+</html>
