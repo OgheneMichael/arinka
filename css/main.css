@@ -239,6 +239,7 @@ label {
     background-color: #fff;
     border: 3px solid #F2994A;
     border-radius: 2rem;
+    -webkit-appearance: textfield;
 }
 
 .form-control::-webkit-input-placeholder {
